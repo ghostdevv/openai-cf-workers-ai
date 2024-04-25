@@ -1,6 +1,7 @@
-name = "openai-cf"                # todo
+name = "wai-oai-proxy"                # todo
 main = "index.js"
 compatibility_date = "2022-05-03"
+account_id = "44321e1b7fbd29b56b65c1890a3bbee2"
 
 compatibility_flags = [
 	"transformstream_enable_standard_constructor",
@@ -12,8 +13,8 @@ binding = "AI" # i.e. available in your Worker on env.AI
 
 [[r2_buckets]]
 binding = "IMAGE_BUCKET"
-bucket_name = "openai-cf-images"
+bucket_name = "wai-oai-proxy-images"
 preview_bucket_name = "ai-images"
 
 [vars]
-CLOUDFLARE_ACCOUNT_ID = "c8c30db3dddc4ad31065d336368c7905" # replace with your own. 
+CLOUDFLARE_ACCOUNT_ID = "44321e1b7fbd29b56b65c1890a3bbee2" # replace with your own. 
